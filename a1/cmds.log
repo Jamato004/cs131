@@ -1,0 +1,19 @@
+1. 
+echo $HOME
+
+2.
+ls /proc | grep mem
+
+ls /proc | grep cpu
+
+3. 
+ls /etc | grep release
+cat /etc/os-release >> a1.txt
+
+4A.
+head -n 1 2019-04.csv | tr ',' '\n' | nl
+
+grep '2019-04-02' 2019-04.csv | cut -d',' -f8 | sort | uniq -c | sort -nr | head -3 >> a1.txt
+
+4B.
+grep '2019-04-10' 2019-04.csv | cut -d',' -f8 | sort | uniq -c | sort -nr | head -3 >> a1.txt
