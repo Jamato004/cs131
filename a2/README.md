@@ -22,7 +22,9 @@ It performs the following tasks:
 1. Open a terminal and navigate to your script's folder.
 
 2. Run the script with Bash:
+   ```bash
    bash datacollector.sh
+   ```
 
 3. When prompted:
 
@@ -52,6 +54,7 @@ It performs the following tasks:
 
 ## Output Example
 
+```bash
 $ bash datacollector.sh
 Enter the URL of the dataset (e.g., from UCI ML Repo):
 https://archive.ics.uci.edu/static/public/186/wine+quality.zip
@@ -99,3 +102,4 @@ Enter comma-separated indices of numerical columns for winequality-white.csv (e.
 Saved summary to ../summary_winequality-white.md
 
 All summaries generated.
+```
