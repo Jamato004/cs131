@@ -1,0 +1,23 @@
+# change to assignment directory
+cd ~/cs131/a3
+
+# Create the sample CSV for testing
+vi grades.csv
+
+# Created the AWK script
+vi grader.awk
+
+# Ran the AWK script and saved the output
+awk -f grader.awk grades.csv > a3.txt
+
+# Viewed the result
+cat a3.txt
+
+# Fixing errors
+vi grader.awk
+
+# Re-ran script after fixing errors
+awk -f grader.awk grades.csv > a3.txt
+
+# Checking results
+cat a3.txt
