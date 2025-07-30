@@ -1,0 +1,28 @@
+# Preview the dataset
+head co2.csv
+wc -l co2.csv
+
+vi collect_data.sh          # Created a shell script to process co2.csv
+chmod +x collect_data.sh    # Made the script executable
+./collect_data.sh           # Ran the script
+
+# Script outputs:
+# - Column headers
+# - Total number of data rows
+# - Top 10 most common vehicle classes
+# - Top 10 car makes
+# - Average CO2 emissions
+# - Engine size stats: mean, min, max
+# - Fuel consumption (city) stats: mean, min, max
+
+# Store output in text file
+./collect_data.sh > metadata_report.txt
+
+# Created and edited a5.ipynb in Google Colab
+# - Loaded co2.csv with Spark
+# - Dropped missing values
+# - Split data into train/test sets
+# - Trained Decision Tree and Linear Regression models
+# - Evaluated models with RMSE
+# - Analyzed feature importance
+# - Generated visualizations with seaborn and matplotlib

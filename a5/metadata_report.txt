@@ -1,0 +1,55 @@
+=== Column Names ===
+Make
+Model
+Vehicle Class
+Engine Size(L)
+Cylinders
+Transmission
+Fuel Type
+Fuel Consumption City (L/100 km)
+Fuel Consumption Hwy (L/100 km)
+Fuel Consumption Comb (L/100 km)
+Fuel Consumption Comb (mpg)
+CO2 Emissions(g/km)
+
+=== Total Entries ===
+7385
+
+=== Unique Vehicle Classes ===
+   1217 SUV - SMALL
+   1133 MID-SIZE
+   1022 COMPACT
+    735 SUV - STANDARD
+    639 FULL-SIZE
+    606 SUBCOMPACT
+    538 PICKUP TRUCK - STANDARD
+    460 TWO-SEATER
+    326 MINICOMPACT
+    252 STATION WAGON - SMALL
+
+=== Unique Vehicle Classes ===
+=== Top 10 Makes ===
+    628 FORD
+    588 CHEVROLET
+    527 BMW
+    419 MERCEDES-BENZ
+    376 PORSCHE
+    330 TOYOTA
+    328 GMC
+    286 AUDI
+    259 NISSAN
+    251 JEEP
+
+=== Average CO2 Emissions (g/km) ===
+250.585
+
+=== Engine Size Stats (Liters) ===
+Mean: 3.16007 
+Min: 0.9 
+Max: 8.4
+
+=== Fuel Consumption City Stats (L/100 km) ===
+Mean: 12.5565 
+Min: 4.2 
+Max: 30.6
+
